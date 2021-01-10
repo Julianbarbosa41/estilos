@@ -149,14 +149,12 @@
 }
 /* configuraciones */
 /* navevacio(personalizado) */
-
 header{
     position: absolute;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5px 100px;
     align-items: center;
     z-index: 10;
     background-color: var(--rosado_claro);
@@ -166,9 +164,10 @@ header{
     display: flex;
     width: 40px;
     height: 41;
-    margin-right: 700px;
+    margin-right: 500px;
     cursor: pointer;
     position: relative;
+    margin-bottom: 5px;
 }
 
 
@@ -177,6 +176,7 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .navbar li {
@@ -195,5 +195,4 @@ header{
 .navbar li a i{
     font-size: 30px;
 }
-
 /* navevacio(personalizado) */
