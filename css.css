@@ -150,6 +150,50 @@
 /* configuraciones */
 /* navevacio(personalizado) */
 
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    align-items: center;
+    z-index: 10;
+    background-color: var(--rosado_claro);
+}
 
+.logo-nav img{
+    display: flex;
+    width: 40px;
+    height: 41;
+    margin-right: 700px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 5px 30px;
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: var(--cafe);
+    font-size: 20px;
+}
+
+.navbar li a i{
+    font-size: 30px;
+}
 
 /* navevacio(personalizado) */
