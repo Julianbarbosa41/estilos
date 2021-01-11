@@ -168,7 +168,6 @@ header{
   color:var(--blanco);
   bottom: 0;
   width: 100%;
-  position: relative;
 }
 .site-footer hr
 {
