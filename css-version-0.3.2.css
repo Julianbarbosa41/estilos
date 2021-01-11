@@ -108,45 +108,6 @@
 /* colores */
 /* configuraciones */
 
-.p-1{
-    padding: 1;
-}
-
-.p-2{
-    padding: 2px;
-}
-
-.p-3{
-    padding:3px;
-}
-
-.p-4{
-    padding: 4px;
-}
-
-.p-5{
-    padding: 5px;
-}
-
-.p-6{
-    padding: 6px;
-}
-
-.p-7{
-    padding:7px;
-}
-
-.p-8{
-    padding: 8px;
-}
-
-.p-9{
-    padding: 9px;
-}
-
-.p-10{
-    padding: 10px;
-}
 /* configuraciones */
 /* navevacio(personalizado) */
 
@@ -157,6 +118,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: var(--rosado_claro);
+    height: 50px;
 }
 
 .logo-nav img{
@@ -196,7 +158,6 @@ header{
 }
 /* navevacio(personalizado) */
 /* footer */
-
 
 .site-footer
 {
@@ -370,10 +331,11 @@ body{
 .row{
   width: 100%;
 }
+/* footer */
+
 .whatsapp{
   text-align: center;
 }
 .container-2{
   height:calc(100vh - 50px - 298px);
 }
-/* footer */
