@@ -338,4 +338,7 @@ body{
 }
 .container-2{
   height:calc(100vh - 50px - 298px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
