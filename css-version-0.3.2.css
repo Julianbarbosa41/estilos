@@ -169,6 +169,7 @@ header{
   bottom: 0;
   width: 100%;
   position: relative;
+  align-self: flex-end;
 }
 .site-footer hr
 {
@@ -327,6 +328,7 @@ body{
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-height: 100vh;
 }
 .row{
   width: 100%;
@@ -337,7 +339,6 @@ body{
   text-align: center;
 }
 .container-2{
-  height:calc(100vh - 50px - 298px);
   position: relative;
   display: flex;
   flex-direction: column;
