@@ -369,5 +369,10 @@ body{
 .row{
   width: 100%;
 }
-
+.whatsapp{
+  text-align: center;
+}
+.container-2{
+  height:calc(100vh - 50px - 298px);
+}
 /* footer */
