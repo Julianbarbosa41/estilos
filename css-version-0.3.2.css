@@ -151,13 +151,11 @@
 /* navevacio(personalizado) */
 
 header{
-    position: absolute;
     top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 10;
     background-color: var(--rosado_claro);
 }
 
